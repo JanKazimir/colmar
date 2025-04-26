@@ -3,3 +3,31 @@ html, body {
     box-sizing: border-box;
     
 }
+
+/* Footer */
+
+#footer {
+    display: inline-flex;
+    align-items: baseline;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#copyright {
+    color: grey;
+    margin-left: 1.5rem;
+
+}
+
+#footerlinks {
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-right: 1rem;
+   
+
+}
+
+#footerlinks a {
+    justify-content: flex-end;
+    text-decoration: none;
+}
