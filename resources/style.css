@@ -1,10 +1,10 @@
-/* add border box! */
 html, body {
     box-sizing: border-box;
-    
 }
 
-/* Header and Nav bar */
+/* 
+Header and Nav bar 
+*/
 
 #headerbar {
     display: flex;
@@ -26,7 +26,6 @@ html, body {
     align-items: center;
     margin-left: 1.5rem;
 }
-
 
 #colacao p {
     display: inline-flex;
@@ -71,9 +70,12 @@ html, body {
     display: inline-flex;
 }
 
-.imagebox {
+.imagebox img {
     object-fit: contain;
     object-fit: center;
+    width: 100%;
+
+
 }
 
 
@@ -147,7 +149,33 @@ Practice
 ========
 */
 
+#practice {
+    display: flex;
+    width: 100%;
+}
 
+.imgtoptextbelow {
+    display: flex;
+}
+.Img-left-text-right {
+    display: flex;
+}
+
+#pr-left {
+    width: 60%;
+    display: block;
+    height: auto;
+}
+
+#pr-left img {
+    padding: 2rem 1rem;
+}
+
+
+#pr-right {
+    width: 40%;
+
+}
 
 
 
