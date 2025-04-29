@@ -1,5 +1,6 @@
 html, body {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* 
@@ -35,6 +36,15 @@ Header and Nav bar
 #academy {
     color: grey;
     margin-left: -0.25rem;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+
+#colmar {
+    color: rgb(72, 72, 72);
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem;
 }
 
 #navlinks {
@@ -72,8 +82,9 @@ Header and Nav bar
 
 .imagebox img {
     object-fit: contain;
-    object-fit: center;
+    /* object-fit: center; */
     width: 100%;
+    justify-items: center;
 
 
 }
@@ -156,25 +167,73 @@ Practice
 
 .imgtoptextbelow {
     display: flex;
+    object-fit: contain;
+    object-fit: contain;
+
 }
 .Img-left-text-right {
     display: flex;
+    object-fit: contain;
+    margin-top: 1rem;
+    align-content: space-around;
+}
+
+.Img-left-text-right img {
+    width: 35%;
+    height: auto;
+    margin: 1rem;
+}
+
+.side-text {
+    align-content: center;
+    row-gap: 0.2rem;
+    display: flexbox;
+}
+
+.side-text a {
+    text-decoration: none;
+    color: rgb(73, 134, 246);
+}
+
+.side-text p, h3, a {
+    margin: 0.5rem;
+
+}
+
+
+h3 {
+    color: rgb(88, 87, 87);
+}
+
+p   {
+    color: rgb(104, 103, 103);
 }
 
 #pr-left {
     width: 60%;
     display: block;
     height: auto;
+    object-fit: contain;
+    margin: 2rem 1rem;
 }
 
 #pr-left img {
-    padding: 2rem 1rem;
+    /* padding: 2rem 1rem;
+    margin: 0 1rem; */
 }
 
+h2 {
+    font-size: 2rem;
+    color: rgb(54, 54, 54);
+}
+
+#signature {
+    font-size: smaller;
+    align-items:flex-end;
+}
 
 #pr-right {
     width: 40%;
-
 }
 
 
