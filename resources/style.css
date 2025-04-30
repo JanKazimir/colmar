@@ -134,6 +134,7 @@ align-items: center;
     width: 100%;
     text-align: center;
     padding-left: 0;
+    padding-right: 2rem;
 }
 #wecan {
     font-size: 1.6rem;    
@@ -303,6 +304,8 @@ h2 {
 
 #fisma {
     background-color: rgb(231, 231, 231);
+    margin-top: 2rem;
+
 }
 
 h4 {
