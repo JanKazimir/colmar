@@ -22,6 +22,8 @@ Header and Nav bar
     
 }
 
+
+
 #headleft {
     display: inline-flex;
     align-items: center;
@@ -194,9 +196,10 @@ Practice
     color: rgb(73, 134, 246);
 }
 
-.side-text p, h3, a {
+.side-text p, 
+.side-text h3, 
+.side-text a {
     margin: 0.5rem;
-
 }
 
 
@@ -216,9 +219,10 @@ p   {
     margin: 2rem 1rem;
 }
 
-#pr-left img {
-    /* padding: 2rem 1rem;
-    margin: 0 1rem; */
+#pr-left video {
+  object-fit: contain;
+  width: 100%;
+
 }
 
 h2 {
@@ -282,12 +286,25 @@ h2 {
     margin-bottom: 1rem;
 }
 
-.startbox p, h3 {
+.startbox p, 
+.startbox h3 {
     margin: 0.8rem 1rem;
 }
 
 .start-text {
     margin-bottom: 1.5rem;
+}
+
+/* thesis
+*/
+
+#fisma {
+    background-color: rgb(231, 231, 231);
+}
+
+h4 {
+    font-size: 1.2rem;
+    color: rgb(55, 55, 55);
 }
 
  /* Footer
@@ -319,3 +336,29 @@ h2 {
     justify-content: flex-end;
     text-decoration: none;
 }
+
+
+/* Applies to mobile */
+@media only screen and (max-width: 720px) {
+    body {
+        /* display: none; */
+    }
+
+    header {
+        
+        #navlinks {display:none;}
+        #colacao {display:none}
+
+    }
+
+} 
+
+/* aopplies to desktop  */
+@media only screen and (min-width: 720px) {
+    header {
+
+    }
+
+
+}
+
