@@ -345,10 +345,6 @@ h4 {
 
 /* Applies to mobile */
 @media only screen and (max-width: 720px) {
-    /* body {
-
-    } */
-
     header {
         #navlinks {display:none;}
         #colacao {display:none}
@@ -393,7 +389,6 @@ h4 {
     }
     
     /* Pracftice rebuild */
-    
     #practice {display:none;}
 
     #practice-mobile {
@@ -401,21 +396,67 @@ h4 {
         background-color: rgb(235, 234, 234);
         padding-bottom: 2rem;
 
-
         .mobile-startbox img {
             max-width: 100%;
             margin-top: 1rem;
             padding: 1rem 0;
         }
+    }
 
+    .mobile-title {
+        font-size: 2rem;
+        color: rgb(70, 70, 70);
+        justify-content: center;
+        align-content: center;
+        justify-items: center;
+        text-align: center;
+        font-weight: 600;
+    }
 
+    #start-section {display: none;}
+    #start-mobile {
+        display:inline-flex;
+        flex-direction: column;
+        width: 100%;
+        border-top: 1px;
+        border-bottom: 1px;
+        border-style: solid;
+        border-left: 0;
+        border-right: 0;
+        border-color: rgba(167, 167, 167, 0.457);
 
+        .darkbox {
+            background-color: rgb(228, 226, 226);
+            margin-top: 8px;
+            margin-bottom: 0;
+            /* margin-left: 1rem; */
+
+        }
+        .darkbox p {
+            padding: 1rem 1rem 2rem;
+            font-size: larger;
+            color: rgb(59, 59, 59);
+            margin: 0;
+        }
+        #startlinks {
+            margin-bottom: 2rem;
+        }
+
+        
 
     }
 
 
 
+    #thesis-section {display:none;}
+    #thesis-mobile {
+        margin-bottom: 1.5rem;
+        #vid {width:100%;}
+    }
 
+#footerlinks {display:none;}
+
+/* end of mobile group */
 } 
 
 /* Applies to desktop  */
@@ -424,13 +465,12 @@ h4 {
         #navicons {
             display: none;
         }
-
     }
 
 
-    #practice-mobile {
-        display: none;
-    }
+    #practice-mobile {display: none;}
+    #start-mobile {display: none;}
+    #thesis-mobile {display:none;}
 
 }
 
