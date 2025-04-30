@@ -348,9 +348,7 @@ h4 {
 
 /* Applies to mobile */
 @media only screen and (max-width: 720px) {
-    body {
-        /* display: none; */
-    }
+   
 
     header {
         #navlinks {display:none;}
