@@ -345,9 +345,9 @@ h4 {
 
 /* Applies to mobile */
 @media only screen and (max-width: 720px) {
-    body {
-        /* display: none; */
-    }
+    /* body {
+
+    } */
 
     header {
         #navlinks {display:none;}
@@ -395,6 +395,23 @@ h4 {
     /* Pracftice rebuild */
     
     #practice {display:none;}
+
+    #practice-mobile {
+        /* margin-bottom: 1rem; */
+        background-color: rgb(235, 234, 234);
+        padding-bottom: 2rem;
+
+
+        .mobile-startbox img {
+            max-width: 100%;
+            margin-top: 1rem;
+            padding: 1rem 0;
+        }
+
+
+
+
+    }
 
 
 
